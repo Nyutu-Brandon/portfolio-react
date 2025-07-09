@@ -7,7 +7,8 @@ function Projects() {
             setProjects([
                 { id: 1, title:"react website",image:"/reactwebsite.jpeg"},
                 { id: 1, title:"To do app",image:"/todoapp.jpeg"},
-                { id: 1, title:"Weather app",image:"/weatherapp.jpeg"},
+                { id: 1, title:"Blog app",image:"/blog.jpeg"},
+                { id: 1, title:"Expense tracker",image:"/expense.jpeg"},
             ]);
         }, 1000);
 
@@ -21,7 +22,7 @@ function Projects() {
             ) : (
                 <div className="grid">
                     {projects.map((proj) => (
-                        <div className="card">
+                        <div className="grid-item">
                                 <img src={proj.image} alt={proj.title} width="100%"/>
                                 <h3>{proj.title}</h3>
                         </div>

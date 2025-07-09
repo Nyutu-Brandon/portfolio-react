@@ -13,18 +13,20 @@ function Contact () {
             <input
                 placeholder="Your name"
                 value={form.name}
-                onChange={(e) => setForm({ ...form, name: e.target.value })}
+                onChange={(e) => setForm({...form, name: e.target.value})}
                 required
 
             />
             <textarea
                 placeholder="Your message"
                 value={form.message}
-                onChange={(e) => setForm({ ...form, message: e.target.value })}
+                onChange={(e) => setForm({...form, message: e.target.value})}
                 required
             ></textarea>
             <button type="submit">Send</button>
+
         </form>
+
     );
 }
 
