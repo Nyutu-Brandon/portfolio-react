@@ -7,8 +7,8 @@ function Projects() {
             setProjects([
                 { id: 1, title:"react website",image:"/reactwebsite.jpeg"},
                 { id: 1, title:"To do app",image:"/todoapp.jpeg"},
-                { id: 1, title:"Blog app",image:"/blog.jpeg"},
-                { id: 1, title:"Expense tracker",image:"/expense.jpeg"},
+                { id: 1, title:"Weather app",image:"/weatherapp.jpeg"},
+
             ]);
         }, 1000);
 

@@ -27,7 +27,7 @@ function Home () {
             <div className="testimonials" style={{ marginTop: "40px", padding: "20px", backgroundColor: "#f9f9f9", borderRadius: "8px" }}>
                 <h2>Testimonials</h2>
                 <div className="testimonial-card" style={{ margin: "20px 0", padding: "15px", border: "1px solid #ddd", borderRadius: "5px" }}>
-                    <img src="/woman1.jpg" alt="lady1" width="150" style={{ borderRadius: "50%" }} />
+                    <img src="/woman1.jpg" alt="lady1-" width="150" style={{ borderRadius: "50%" }} />
                     <p><strong>- Jane Doe, Software Engineer</strong></p>
                     <p>"Brandon is a talented developer with a keen eye for detail. His projects are always well thought out and executed!"</p>
 
